@@ -46,7 +46,6 @@ final class Singleton
     private function __construct()
     {
     }
-
     /**
      * 懒汉式，线程不安全
      * 是否 Lazy 初始化：是
@@ -97,4 +96,7 @@ final class Singleton
     {
     }
 }
+
+$singleton = Singleton::getLazyInstance();
+var_dump($singleton);
 
