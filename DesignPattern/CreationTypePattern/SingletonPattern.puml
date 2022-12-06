@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+left to right direction
+hide empty members
+
+class Singleton {
+    -function __construct()
+    +function getInstance(): Singleton
+    -function __clone()
+    -function __wakeup()
+}
+
+Singleton::getInstance <|-- Singleton1
+@enduml
