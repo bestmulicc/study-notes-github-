@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+left to right direction
+hide empty members
+
+'工厂模式puml图
+interface Procurement{
+    +buy()
+}
+class Product implements Procurement{
+    +buy()
+}
+class Material implements Procurement{
+    +buy()
+}
+class BulkProduct implements Procurement{
+    +buy()
+}
+class NoType implements Procurement{
+    +buy()
+}
+class Factory{
+    +create(type):: Procurement
+}
+class Client{
+    +__construct()
+}
+Factory <|-- Procurement
+Client <|-- Factory
+@enduml
