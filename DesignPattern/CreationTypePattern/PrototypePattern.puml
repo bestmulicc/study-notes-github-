@@ -1,0 +1,24 @@
+@startuml
+
+abstract class Prototype {
+    + clone(): Prototype
+}
+
+class ConcretePrototype {
+    - name: string
+    + __construct(name: string)
+    + getName(): string
+    + setName(name: string): void
+    + clone(): Prototype
+}
+
+class Client {
+    - prototype: Prototype
+    + __construct(prototype: Prototype)
+    + getPrototype(): Prototype
+}
+
+Prototype <|-- ConcretePrototype
+Client --> Prototype
+
+@enduml
