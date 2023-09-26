@@ -6,19 +6,19 @@
 
 * 抽象工厂模式（Abstract Factory）
 * 建造者模式（Builder）
-* 工厂方法模式（Factory Method）
+* [工厂方法模式（Factory Method）](./CreationTypePattern/FactoryMethod/FactoryMethod.php)
 * 多例模式（Multiton）
 * 对象池模式（Pool）
-* 原型模式（Prototype）
+* [原型模式（Prototype）](./CreationTypePattern/PrototypePattern/PrototypePattern.php)
 * 简单工厂模式（Simple Factory）
-* [单例模式（Singleton）](./SingletonPattern.php)
+* [单例模式（Singleton）](./CreationTypePattern/SingletonPattern/SingletonPattern.php)
 * 静态工厂模式（Static Factory）
 
 ## StructuralTypePattern
 
 结构型模式
 
-* 适配器模式（Adapter）
+* [适配器模式（Adapter）](./StructuralTypePattern/Adapter/Adapter.php)
 * 桥梁模式（Bridge）
 * 组合模式（Composite）
 * 数据映射模式（Data Mapper）
@@ -40,9 +40,9 @@
 * 中介者模式（Mediator）
 * 备忘录模式（Memento）
 * 空对象模式（Null Object）
-* 观察者模式（Observer）
+* [观察者模式（Observer）](./BehavioralTypePattern/Observer/Observer.php)
 * 规格模式（Specification）
 * 状态模式（State）
-* 策略模式（Strategy）
+* [策略模式（Strategy）](./BehavioralTypePattern/Strategy/Strategy.php)
 * 模板方法模式（Template Method）
 * 访问者模式（Visitor）
