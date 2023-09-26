@@ -11,7 +11,7 @@
 * 对象池模式（Pool）
 * 原型模式（Prototype）
 * 简单工厂模式（Simple Factory）
-* 单例模式（Singleton）
+* [单例模式（Singleton）](#SingletonPattern.php)
 * 静态工厂模式（Static Factory）
 
 ## StructuralTypePattern
