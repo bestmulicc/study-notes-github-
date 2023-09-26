@@ -1,5 +1,5 @@
 ## 两数之和 II - 输入有序数组
-![img.png](../../../images/两数之和%20II%20-%20输入有序数组.png)
+![image.png](https://bestacou-1317041502.cos.ap-guangzhou.myqcloud.com/20230926155511.png)
 
 ### 解题思路
 

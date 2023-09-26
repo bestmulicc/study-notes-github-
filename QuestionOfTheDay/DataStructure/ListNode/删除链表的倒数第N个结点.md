@@ -1,6 +1,7 @@
 ## 删除链表的倒数第N个结点
 
-![img.png](../../../images/删除链表的倒数第N个结点.png)
+![image.png](https://bestacou-1317041502.cos.ap-guangzhou.myqcloud.com/20230926155820.png)
+
 
 ### 解题思路
 
